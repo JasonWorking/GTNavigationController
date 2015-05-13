@@ -1,6 +1,9 @@
 # GTNavigationController
 A drop in replacement of UINavigationController with predefined custom transition animations. Base on ADTransitionController. Support iOS6+ .
 # Base on [ADTransitionController](https://github.com/applidium/ADTransitionController/) .
+![image](https://raw.githubusercontent.com/JasonWorking/GTNavigationController/master/customNaviDemo.gif)
+
+
 #### 1 实现原理：
 1. 概述： GTNavigationViewController是[ADTransitionController](https://github.com/applidium/ADTransitionController/)的一个封装。提供类似系统自带UINavigationController的接口，并提供17种预定义的转场动画模版。
 2. ADTransitionController通过实现一个自定义的Containner ViewControler来实现NavigationController的功能，提供17种自定义Transition动画模版。GTNavigationViewController通过继承ADTransitionController来简化ADTransitionController的使用，底层实现还是由ADTransitionController来提供的。
